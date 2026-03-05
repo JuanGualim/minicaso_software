@@ -9,7 +9,7 @@ mkdir -p bin
 
 # Compilar todos los archivos Java
 echo "Compilando archivos Java..."
-javac -d bin src/modelo/*.java src/controlador/*.java src/vista/*.java src/Main.java
+javac -d bin src/model/*.java src/controller/*.java src/view/*.java src/Main.java
 
 if [ $? -eq 0 ]; then
     echo "✓ Compilación exitosa"
